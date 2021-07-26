@@ -1,7 +1,7 @@
 # Личный проект «Мишка» 
 
 * Студент: [Андрей Коваленко](https://up.htmlacademy.ru/adaptive/23/user/428409).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Беллавин](https://htmlacademy.ru/profile/bellavin).
 
 ---
 
