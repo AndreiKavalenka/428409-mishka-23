@@ -5,8 +5,105 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+        <nav class="main-navigation">
+          <div class="main-navigation__wrapper">
+            <div class="main-navigation__wrap">
+              <a class="main-navigation__link" href="#">
+                <picture class="main-navigation__picture">
+                  <img src="img/mishka-logo-mobile.svg.png" alt="Логотип магазина">
+                </picture>
+              </a>
+              <button class="main-navigation__button" type="button"></button>
+            </div>
+          </div>
+
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+          </ul>
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a href="#">
+                <!--пока не определился, чем делать иконку: svg, img или псевдоэлементом, пока оставляю img-->
+                <img class="main-navigation__icon" src="#" alt="Иконка поиска">
+                  Поиск по сайту</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">
+                <!--пока не определился, чем делать иконку: svg, img или псевдоэлементом, пока оставляю img-->
+                <img class="main-navigation__icon" src="#" alt="Иконка корзины">
+                  Корзина: пока пуста</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main-page">
+      <h1 class="visually-hidden">Интернет-магазин изделий ручной работы Mishka</h1>
+      <section class="main-title">
+        <div class="main-title__wrapper">
+          <div class="main-title__caption">
+            <h2>Милые штуки ручной работы для дома</h2>
+          </div>
+          <ul class="main-title__products">
+            <li class="main-title__item">
+              <div class="main-title__item-wrap">
+                <a href="#" class="main-title__link">Предметы интерьера</a>
+              </div>
+            </li>
+            <li class="main-title__item">
+              <div class="main-title__item-wrap">
+                <a href="#" class="main-title__link">Детские игрушки</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="offer">
+        <div class="offer__wrapper">
+          <div class="offer__title">
+            <h2>Вязаные корзинки</h2>
+            <p>Товар недели</p>
+          </div>
+          <div class="offer__description">
+            <p>Экологически чистая пряжа, ручная работа. Доступна в шести расцветках и трех размерах.</p>
+            <table class="offer__table">
+              <tbody>
+                <tr class="offer__row">
+                  <td class="offer__cell">Цвет:</td>
+                  <td class="offer__cell">&nbsp;&laquo;Тиффани&raquo;/серый</td>
+                </tr>
+                <tr class="offer__row">
+                  <td class="offer__cell">Диаметр:</td>
+                  <td class="offer__cell">25 см</td>
+                </tr>
+                <tr class="offer__row">
+                  <td class="offer__cell">Высота:</td>
+                  <td class="offer__cell">15 см</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
 
   </body>
+
 </html>
