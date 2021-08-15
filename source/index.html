@@ -118,50 +118,58 @@
         </ul>
       </div>
     </section>
-    <section class="reviews">
-      <div class="reviews__wrapper">
+    <section class="reviews-slider">
+      <div class="reviews-slider__wrapper">
         <h2>Отзывы</h2>
-        <div class="reviews__slider">
-
-          <blockquote class="reviews__block">
-            <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества
-              лайков, как
-              у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
-              стали более стильными, а также набирают больше лайков!
-            </p>
-            <cite class="reviews__author">
-              <span class="reviews__author-name">Анастасия Красильникова</span>
-              <a href="#" class="reviews__author-link">@missssskras</a>
-            </cite>
-          </blockquote>
-          <blockquote class="reviews__block">
-            <p class="reviews__text">Я сестра молодой мамы, но всё равно фотографии не набирали и близко такого
-              количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
-              и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
-              больше лайков!
-            </p>
-            <cite class="reviews__author">
-              <span class="reviews__author-name">Екатерина Красильникова</span>
-              <a href="#" class="reviews__author-link">@missssskras2</a>
-            </cite>
-          </blockquote>
-          <blockquote class="reviews__block">
-            <p class="reviews__text">Я двоюродная сестра молодой мамы, но всё равно фотографии не набирали и близко
-              такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
-              и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
-              больше лайков!
-            </p>
-            <cite class="reviews__author">
-              <span class="reviews__author-name">Елена Красильникова</span>
-              <a href="#" class="reviews__author-link">@missssskras3</a>
-            </cite>
-          </blockquote>
-          <div class="reviews__slider">
-            <button class="reviews__slider-prev" type="button" name="reviews__slider-prev"></button>
-            <button class="reviews__slider-next" type="button" name="reviews__slider-next"></button>
+        <div class="reviews-slider__slider">
+          <ul class="reviews-slider__list">
+            <li class="reviews-slider__item">
+              <blockquote class="reviews-slider__block">
+                <p class="reviews-slider__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества
+                  лайков, как
+                  у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии
+                  сразу
+                  стали более стильными, а также набирают больше лайков!
+                </p>
+                <cite class="reviews-slider__author">
+                  <span class="reviews-slider__author-name">Анастасия Красильникова</span>
+                  <a href="mailto:@missssskras" class="reviews-slider__author-link">@missssskras</a>
+                </cite>
+              </blockquote>
+            </li>
+            <li class="reviews-slider__item">
+              <blockquote class="reviews-slider__block">
+                <p class="reviews-slider__text">Я сестра молодой мамы, но всё равно фотографии не набирали и близко такого
+                  количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
+                  и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
+                  больше лайков!
+                </p>
+                <cite class="reviews-slider__author">
+                  <span class="reviews-slider__author-name">Екатерина Красильникова</span>
+                  <a href="mailto:@missssskras2" class="reviews-slider__author-link">@missssskras2</a>
+                </cite>
+              </blockquote>
+            </li>
+            <li class="reviews-slider__item">
+              <blockquote class="reviews-slider__block">
+                <p class="reviews-slider__text">Я двоюродная сестра молодой мамы, но всё равно фотографии не набирали и близко
+                  такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
+                  и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
+                  больше лайков!
+                </p>
+                <cite class="reviews-slider__author">
+                  <span class="reviews-slider__author-name">Елена Красильникова</span>
+                  <a href="mailto:@missssskras3" class="reviews-slider__author-link">@missssskras3</a>
+                </cite>
+              </blockquote>
+            </li>
+          </ul>
+          <div class="reviews-slider__buttons">
+            <button class="reviews-slider__toggle reviews-slider__toggle--prev" type="button" name="reviews__slider-prev"></button>
+            <button class="reviews-slider__toggle reviews-slider__toggle--next" type="button" name="reviews__slider-next"></button>
           </div>
         </div>
-        <button class="reviews__button" type="button" name="reviews__button">Написать</button>
+        <button class="reviews-slider__button" type="button" name="reviews__button">Написать</button>
       </div>
     </section>
     <section class="contacts">
@@ -197,7 +205,7 @@
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <div class="page-footer__social">
+      <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link" href="https://www.instagram.com/htmlacademy/">Instagram</a>
@@ -210,7 +218,7 @@
           </li>
         </ul>
       </div>
-      <div class="page-footer__copyright">
+      <div class="page-footer__copyright copyright">
         <a class="copyright__link" href="https://htmlacademy.ru/">
           <span>Разработано</span>
           <svg class="copyright__icon" width="27" height="35" viewBox="0 0 27 35" fill="none"
@@ -227,7 +235,7 @@
     <div class="popup__wrapper">
       <h2 class="popup__title">Добавить в корзину</h2>
       <fieldset class="popup__form">
-        <legend class="popup___legend">Выберите размер:</legend>
+        <legend class="popup__legend">Выберите размер:</legend>
         <div class="popup__inner">
           <div class="popup__size">
             <input class="popup__input" type="radio" name="size" value="S" id="s" checked>
