@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Каталог продукции</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <nav class="main-navigation">
+        <div class="main-navigation__wrapper">
+          <div class="main-navigation__wrap">
+            <a class="main-navigation__link" href="index.html">
+              <picture class="main-navigation__picture">
+                <img src="img/mishka-logo-mobile.svg" alt="Логотип магазина">
+              </picture>
+            </a>
+            <button class="main-navigation__button" type="button"></button>
+          </div>
+        </div>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="form.html">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a href="#">
+              <!--пока не определился, чем делать иконку: svg, img или псевдоэлементом, пока оставляю img-->
+              <img class="main-navigation__icon" src="#" alt="Иконка поиска">
+              Поиск по сайту</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">
+              <!--пока не определился, чем делать иконку: svg, img или псевдоэлементом, пока оставляю img-->
+              <img class="main-navigation__icon" src="#" alt="Иконка корзины">
+              Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page__main">
+    <h1 class="visually-hidden">Каталог товаров. Интернет-магазин изделий ручной работы Mishka</h1>
+    <div class="page-catalog__title">
+      <h2>Каталог товаров</h2>
+    </div>
+    <section class="page-catalog__catalog">
+      <div class="page-catalog__wrapper">
+        <div class="page-catalog__product-card">
+          <div class="product-card__picture">
+            <a class="product-card__link" href="#">
+              <picture>
+                <img src="img/photo-1-mobile 1.jpg" alt="Зайчик-попрыгайчик" width="260" height="195">
+              </picture>
+            </a>
+          </div>
+          <div class="product-card__description">
+            <a class="product-card__link" href="#">
+              <h3>Зайчик-попрыгайчик</h3>
+            </a>
+            <p>Рост 30 см, вес 200 г</p>
+            <div class="product-card__price">
+              <p>1 200 руб.</p>
+              <svg class="product-card__cart-icon" width="20" height="19">
+
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="page-catalog__video"></section>
+  </main>
+</body>
+
+</html>
