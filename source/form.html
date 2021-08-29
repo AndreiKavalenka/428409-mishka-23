@@ -116,21 +116,15 @@
         <fieldset class="form__data">
           <div class="form__wrapper">
             <div class="form__title">
-              <span>ФИО</span>
+              <span>Фио</span>
             </div>
             <div class="form__group">
-              <label>
-                <span>Имя:</span>
-                <input type="text" placeholder="Введите ваше имя*" required>
-              </label>
-              <label>
-                <span>Фамилия:</span>
-                <input type="text" placeholder="Укажите фамилию*" required>
-              </label>
-              <label>
-                <span>Отчество:</span>
-                <input type="text" placeholder="Отчество, если желаете">
-              </label>
+              <label for="first-name">Имя:</label>
+              <input id="first-name" type="text" placeholder="Введите ваше имя*" required>
+              <label for="second-name">Фамилия:</label>
+              <input id="second-name" type="text" placeholder="Укажите фамилию*" required>
+              <label for="surname">Отчество:</label>
+              <input id="surname" type="text" placeholder="Отчество, если желаете">
             </div>
           </div>
         </fieldset>
@@ -139,9 +133,7 @@
           <div class="form__wrapper">
             <div class="form__group">
               <div>
-                <label class="form__title" for="tel">
-                  <span>ТЕЛ</span>
-                </label>
+                <label class="form__title" for="tel">тел</label>
                 <div class="form__wrap">
                   <input id="tel" type="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
                   <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,9 +155,7 @@
                 </div>
               </div>
               <div class="form__mail">
-                <label class="form__title" for="mail">
-                  <span>E-MAIL</span>
-                </label>
+                <label class="form__title" for="mail">e-mail</label>
                 <div class="form__wrap">
                   <input id="mail" type="email" placeholder="Ваш Email*" required>
                   <svg width="32" height="21" viewBox="0 0 32 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -182,7 +172,7 @@
         <fieldset class="form__data">
           <div class="form__wrapper">
             <div class="form__title">
-              <span>ДОП</span>
+              <span>доп</span>
             </div>
             <div class="form__group">
               <textarea name="comment" rows="6" placeholder="Опишите все ваши пожелания к заказу"></textarea>
